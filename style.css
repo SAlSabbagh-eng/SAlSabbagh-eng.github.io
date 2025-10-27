@@ -1,66 +1,119 @@
-/* ===== General Page Style ===== */
+/* ====== Base Page Style ====== */
 body {
-  background-color: #f4f4f4;
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 20px;
+  background-color: #f9fafb;               /* soft neutral background */
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
 }
 
-/* ===== Headings ===== */
+/* ====== Page Container ====== */
+body > * {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 900px;
+}
+
+/* ====== Navigation Bar ====== */
+nav {
+  background-color: #800000;               /* UW-Madison maroon tone */
+  padding: 12px;
+  text-align: center;
+  border-bottom: 3px solid #600000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd166;                          /* soft gold hover color */
+}
+
+/* ====== Headings ====== */
 h1 {
-  color: maroon;
-  font-family: "Times New Roman", serif;
+  color: #800000;
+  font-family: "Times New Roman", serif;   /* serif font requirement */
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
 }
 
 h2, h3 {
   color: #444;
+  margin-top: 20px;
 }
 
-/* ===== Navigation Bar ===== */
-nav {
-  background-color: #ddd;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-nav a:hover {
-  color: maroon;
-}
-
-/* ===== Paragraphs ===== */
+/* ====== Paragraphs & Text ====== */
 p {
-  line-height: 1.6;
-  margin-bottom: 15px;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 
-/* ===== Lists ===== */
+strong {
+  color: #000;
+}
+
+em {
+  color: #555;
+}
+
+/* ====== Lists ====== */
 ul, ol, dl {
-  margin-left: 25px;
+  margin-left: 35px;
+  margin-bottom: 15px;
 }
 
 dt {
   font-weight: bold;
-  color: maroon;
+  color: #800000;
 }
 
-/* ===== Images ===== */
+/* ====== Images ====== */
 img {
   width: 300px;
+  border-radius: 12px;
   margin: 10px;
-  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
 
-/* ===== Footer ===== */
+img:hover {
+  transform: scale(1.03);                  /* small zoom effect on hover */
+}
+
+/* ====== Links ====== */
+a {
+  color: #0066cc;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #004080;
+}
+
+/* ====== Footer ====== */
 footer {
-  margin-top: 30px;
+  background-color: #f1f1f1;
   text-align: center;
-  color: #555;
+  color: #666;
   font-size: 14px;
+  padding: 10px;
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+/* ====== Add breathing room ====== */
+section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
