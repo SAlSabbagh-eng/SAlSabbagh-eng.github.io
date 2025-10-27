@@ -1,0 +1,66 @@
+/* ===== General Page Style ===== */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* ===== Headings ===== */
+h1 {
+  color: maroon;
+  font-family: "Times New Roman", serif;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+  background-color: #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: maroon;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ===== Lists ===== */
+ul, ol, dl {
+  margin-left: 25px;
+}
+
+dt {
+  font-weight: bold;
+  color: maroon;
+}
+
+/* ===== Images ===== */
+img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+}
