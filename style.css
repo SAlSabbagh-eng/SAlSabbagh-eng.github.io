@@ -10,7 +10,7 @@ body {
 
 /* ===== Navigation Bar ===== */
 nav {
-  background-color: #1e40af;
+  background-color: #213c94;
   padding: 10px;
   text-align: center;
   border-radius: 8px;
@@ -22,10 +22,6 @@ nav a {
   text-decoration: none;
   margin: 0 12px;
   font-weight: bold;
-}
-
-nav a:hover {
-  color: #a5b4fc;
 }
 
 /* ===== Headings ===== */
@@ -66,10 +62,6 @@ img {
 /* ===== Links ===== */
 a {
   color: #2563eb;
-}
-
-a:hover {
-  color: #1d4ed8;
 }
 
 /* ===== Footer ===== */
